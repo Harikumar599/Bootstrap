@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- -----external css--- -->
+  <link rel="stylesheet" href="color.css">
+  <!-- ------bootstrap link----- -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- ----google font--- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="container" id="home">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active  " aria-current="page" href="#home" style="font-weight: 500">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" style="font-weight: 500">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog" style="font-weight: 500">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" style="font-weight: 500">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators " class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+            class="active-rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="carouselExampleAutoplaying " data-bs-ride="carousel">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="https://img.freepik.com/free-photo/html-css-collage-concept-with-hacker_23-2150061984.jpg?w=740&t=st=1687429006~exp=1687429606~hmac=da475e4a5d6fd49ac805a76aa15ac60110950a3261a58cb2a5ef7b99296180db"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg?w=740&t=st=1687429061~exp=1687429661~hmac=08b15ccb48e062224ba1a93fe30d48453c02b0ee6bf52ee31b9630fec245e1d9"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img
+              src="https://img.freepik.com/free-photo/tropical-macaw-perched-vibrant-feathers-focus-generated-by-ai_188544-9720.jpg?w=740&t=st=1687429081~exp=1687429681~hmac=36f9bc3846c1d05045a6eb2ad4a3be567111fc1cf342106452685985cd28606f"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="card" style=" border: none">
+                <div class="card-body">
+                  <h5 class="card-title">Bootstrap</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis commodi
+                    repellendus eaque nulla, error amet odit excepturi dignissimos reprehenderit ratione velit voluptate
+                    id fuga iure nihil, repudiandae rerum! Voluptatibus, eligendi. Some quick example text to build on
+                    the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                  <button class="btn btn-primary">More!</button>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style=" border: none">
+                <div class="card-body">
+                  <h5 class="card-title">template</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quos tenetur
+                    enim delectus doloremque iste autem, sit ullam sed sint explicabo ducimus sunt earum alias suscipit
+                    quibusdam obcaecati facere corrupti. Some quick example text to build on the o build  card title and make up
+                    the bulk of the
+                    card's
+                    content.</p>
+                  <button class="btn btn-primary">More!</button>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style=" border: none">
+                <div class="card-body">
+                  <h5 class="card-title">Blog</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure quia
+                    optio magnam odit assumenda esse quo dolorem saepe unde officia, labore fugiat quae, aliquid
+                    expedita, incidunt sunt? Voluptates, necessitatibus! Some quick example text to build on the card
+                    title and make up the bulk of the
+                    card's
+                    content.</p>
+                  <button class="btn btn-primary">More!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
