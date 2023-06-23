@@ -1,0 +1,14 @@
+.head-one{
+    color: rgb(117, 116, 116);
+    /* background-color: rgb(172, 166, 166); */
+    background-image: linear-gradient(to right, rgb(197, 193, 193) , rgb(231, 231, 156));
+}
+img{
+    border-radius: 15px;
+}
+.card-title{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-text{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
