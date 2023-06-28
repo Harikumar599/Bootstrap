@@ -1,0 +1,20 @@
+div.card-body{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 40px;
+}
+.cardone{
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border: 2px solid white;
+   margin-top: -90px;
+   background-color: white;
+}
+h5{
+    font-family: 'Bree Serif', serif;
+
+   }
+p{
+    font-family: 'Roboto';
+    font-weight: 600;
+}
