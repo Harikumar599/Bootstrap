@@ -2,6 +2,7 @@
     color: rgb(117, 116, 116);
     /* background-color: rgb(172, 166, 166); */
     background-image: linear-gradient(to right, rgb(197, 193, 193) , rgb(231, 231, 156));
+    border-radius: 5px;
 }
 img{
     border-radius: 15px;
