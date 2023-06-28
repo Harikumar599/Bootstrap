@@ -1,0 +1,341 @@
+/* .navbar{
+    position: sticky;
+    top: 0;
+} */
+.main {
+    background: solid 1px black;
+}
+nav ul li {
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    position: relative;
+}
+nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 5px;
+    background: rgb(19, 187, 209);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+.nav-logo {
+    display: inline;
+    position: relative;
+    top: 2px;
+    color: green;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img {
+    margin-bottom: 8px;
+}
+
+.nav,
+ul,
+li,
+a {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    float: left;
+
+}
+
+.Home-content {
+    margin-top: 30px;
+
+    padding: 60px;
+}
+
+.background-img {
+    background-image: url("img/wallpaperflare-cropped.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 90%; */
+}
+
+.Home-content h5 {
+    margin-left: 100px;
+    color: green;
+}
+
+.Home-content h1 {
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    color: orangered;
+    position: relative;
+    bottom: 35px;
+}
+
+.Home-content p {
+    position: relative;
+    bottom: 40px;
+    font-weight: 500;
+}
+
+.btn1 {
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-size: smaller;
+    font-weight: 700;
+    background-color: rgb(17, 223, 17);
+    border: rgb(17, 223, 17);
+    position: relative;
+    bottom: 40px;
+}
+
+.background-cr {
+    background-color: rgb(17, 223, 17);
+    text-align: center;
+    width: 1325px;
+    height: 650px;
+}
+
+.text-para {
+    position: relative;
+    top: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.text-para h1 {
+    font-size: 22px;
+}
+
+
+.card-one {
+    margin-left: 38px;
+}
+
+.card-two {
+    margin-left: 38px;
+}
+
+.card-three {
+    margin-left: 38px;
+}
+
+.back-0 {
+    background-image: url("https://www.nicepng.com/png/detail/5-56132_fresh-fruits-png-fresh-fruits.png");
+    height: 100vh;
+    width: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back-1 {
+    background-color: white;
+}
+
+.back-2 {
+    border: 2px solid rgb(238, 237, 237);
+    background-color: rgb(242, 240, 240);
+    width: 100%;
+    height: 100vh;
+
+}
+
+.Home-content1 {
+    /* text-align: center; */
+    margin-top: 100px;
+    margin-right: 35px;
+}
+
+.Home-content1 h5 {
+    margin-left: 90px;
+    color: green;
+}
+
+.Home-content1 h1 {
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    color: orangered;
+    position: relative;
+    bottom: 35px;
+}
+
+.Home-content1 p {
+    position: relative;
+    bottom: 40px;
+    font-weight: 500;
+}
+
+.btn11 {
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-size: smaller;
+    font-weight: 700;
+    background-color: rgb(255, 145, 54);
+    border: rgb(232, 98, 49);
+    position: relative;
+    bottom: 40px;
+}
+
+/* ---about us--- */
+.two-back {
+    background-color: rgb(21, 240, 32);
+    height: 47vh;
+    width: 100%;
+}
+
+.two-back1 {
+    background-color: rgb(207, 206, 207);
+    height: 53vh;
+    width: 100%;
+}
+
+div.cards {
+    margin-top: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p.para-two {
+    display: inline;
+    padding-left: 160px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p.para-two1 {
+    padding-left: 200px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.head-one {
+    position: relative;
+    top: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----types---- */
+#types {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(178, 228, 225);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("https://clv.h-cdn.co/assets/15/22/2560x1728/gallery-1432664914-strawberry-facts1.jpg");
+    background-size: cover;
+    margin-left: 80px;
+
+}
+
+.circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg");
+    background-size: cover;
+    margin-left: 80px;
+
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("https://www.shutterstock.com/image-photo/green-leaf-background-260nw-126489077.jpg");
+    background-size: cover;
+    margin-left: 80px;
+}
+
+.card-subtitle1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.card-text22 {
+    text-align: center;
+}
+
+.card-link22 {
+    color: black;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 135px;
+}
+
+.more-image {
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+/* ----contact us---- */
+#contact-us {
+    width: 100%;
+    height: 100vh;
+}
+
+.back-01 {
+    background-image: url("https://static.libertyprim.com/files/familles/pomme-large.jpg?1569271834");
+    height: 100vh;
+    width: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Home-content03 {
+margin-left: 100px;
+margin-top: 150px;
+    
+}
+
+.Home-content03 h5 {
+    margin-left: 100px;
+    color: green;
+}
+
+.Home-content03 h1 {
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    color: orangered;
+    position: relative;
+    bottom: 35px;
+}
+
+.Home-content03 p {
+    position: relative;
+    bottom: 40px;
+    font-weight: 500;
+}
+
+.btn1 {
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-size: smaller;
+    font-weight: 700;
+    background-color: rgb(17, 223, 17);
+    border: rgb(17, 223, 17);
+    position: relative;
+    bottom: 40px;
+}
