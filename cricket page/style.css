@@ -1,0 +1,32 @@
+.head-one{
+    background-color: #fb4e71;
+}
+
+/* .card-1{
+border: 2px solid red;
+border-radius: 50px ;
+} */
+
+
+
+/* Styles for screens smaller than or equal to 480px */
+@media (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Styles for screens larger than 480px and smaller than or equal to 768px */
+  @media (min-width: 481px) and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Styles for screens larger than 768px */
+  @media (min-width: 769px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
